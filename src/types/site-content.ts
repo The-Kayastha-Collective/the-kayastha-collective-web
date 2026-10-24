@@ -48,40 +48,6 @@ export interface MissionVisionContent {
   vision: MissionVisionItem;
 }
 
-export interface JoinCommunityContent {
-  sectionLabel: string;
-  title: string;
-  description: string;
-  button: ButtonConfig;
-  note: string;
-}
-
-export type TimelineStatus = "completed" | "current" | "upcoming";
-
-export interface TimelineItem {
-  id: string;
-  date: string;
-  title: string;
-  description: string;
-  status: TimelineStatus;
-}
-
-export interface MemberCounter {
-  label: string;
-  value: number;
-  suffix: string;
-  enabled: boolean;
-}
-
-export interface TimelineStatsContent {
-  sectionLabel: string;
-  title: string;
-  description: string;
-  memberCounter: MemberCounter;
-  emptyTimelineMessage: string;
-  timeline: TimelineItem[];
-}
-
 export interface SocialLink {
   platform: string;
   label: string;
@@ -109,8 +75,5 @@ export interface SiteContent {
   hero: HeroContent;
   about: AboutContent;
   missionVision: MissionVisionContent;
-  joinCommunity: JoinCommunityContent;
-  timelineStats: TimelineStatsContent;
   footer: FooterContent;
-  seo: SEOContent;
 }
