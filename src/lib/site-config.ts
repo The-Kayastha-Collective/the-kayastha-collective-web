@@ -13,7 +13,6 @@ export const {
   about,
   missionVision,
   footer,
-  seo,
 } = siteContent;
 
 /**
