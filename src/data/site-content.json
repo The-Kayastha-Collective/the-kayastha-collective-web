@@ -8,7 +8,7 @@
     "basePath": "/web"
   },
   "navigation": {
-    "logo": "assets/images/logo-dark.png",
+    "logo": "assets/images/logo-dark.webp",
     "logoAlt": "The Kayastha Collective logo",
     "joinButton": {
       "label": "Join the Community",
@@ -30,7 +30,7 @@
       "url": "#about",
       "external": false
     },
-    "backgroundImage": "/assets/images/banner.png",
+    "backgroundImage": "assets/images/banner.webp",
     "showScrollIndicator": true
   },
   "about": {
