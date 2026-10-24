@@ -1,17 +1,8 @@
 import type { NextConfig } from "next";
 
-const repositoryName = process.env.GITHUB_REPOSITORY?.split("/")[1];
+const isGitHubActions = process.env.GITHUB_ACTIONS === "true"; 
 
-const isRootDomainRepository =
-  repositoryName?.endsWith(".github.io") ?? false;
-
-const basePath =
-  process.env.NODE_ENV === "production" &&
-  process.env.GITHUB_ACTIONS === "true" &&
-  repositoryName &&
-  !isRootDomainRepository
-    ? `/${repositoryName}`
-    : "";
+const basePath = isGitHubActions ? "/web" : "";
 
 const nextConfig: NextConfig = {
   // Generate a static website for GitHub Pages.
