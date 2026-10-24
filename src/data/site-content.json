@@ -1,0 +1,82 @@
+{
+  "site": {
+    "name": "The Kayastha Collective",
+    "shortName": "TKC",
+    "description": "A community united by shared heritage, meaningful connections, and collective growth.",
+    "language": "en",
+    "url": "https://the-kayastha-collective.github.io",
+    "basePath": "/web"
+  },
+  "navigation": {
+    "logo": "/assets/images/logo-dark.png",
+    "logoAlt": "The Kayastha Collective logo",
+    "joinButton": {
+      "label": "Join the Community",
+      "url": "https://chat.whatsapp.com/F34gXF7wXYZGnvyQsESbPu",
+      "external": true
+    }
+  },
+  "hero": {
+    "eyebrow": "ONE HERITAGE. ONE COMMUNITY. ENDLESS POSSIBILITIES.",
+    "title": "Rooted in Heritage. United in Growth.",
+    "description": "A community of Kayasthas coming together to build meaningful connections, support one another, and grow collectively.",
+    "primaryButton": {
+      "label": "Join the Community",
+      "url": "https://chat.whatsapp.com/F34gXF7wXYZGnvyQsESbPu",
+      "external": true
+    },
+    "secondaryButton": {
+      "label": "Discover Our Story",
+      "url": "#about",
+      "external": false
+    },
+    "backgroundImage": "/assets/images/banner.png",
+    "showScrollIndicator": true
+  },
+  "about": {
+    "sectionLabel": "WHO WE ARE",
+    "title": "More Than a Community. A Shared Identity.",
+    "paragraphs": [
+      "The Kayastha Collective brings together people connected by a shared cultural heritage and sense of belonging.",
+      "We aspire to create a space where members can build meaningful relationships, exchange knowledge, support one another, and grow together."
+    ]
+  },
+  "missionVision": {
+    "sectionLabel": "OUR PURPOSE",
+    "heading": "What Guides Us",
+    "description": "A shared purpose that connects our heritage with our aspirations for the future.",
+    "mission": {
+      "title": "Our Mission",
+      "description": "To connect Kayasthas, encourage mutual support, enable professional growth, and celebrate the cultural heritage that brings us together."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "description": "To build a connected, empowered, and forward-looking community where shared roots inspire collective progress."
+    }
+  },
+  "footer": {
+    "brandName": "The Kayastha Collective",
+    "tagline": "One Heritage. One Community. Endless Possibilities.",
+    "copyrightStartYear": 2026,
+    "socialLinks": [
+      {
+        "platform": "Instagram",
+        "label": "Instagram",
+        "url": "https://www.instagram.com/the_kayastha_collective",
+        "enabled": true
+      },
+      {
+        "platform": "WhatsApp",
+        "label": "WhatsApp Community",
+        "url": "https://chat.whatsapp.com/F34gXF7wXYZGnvyQsESbPu",
+        "enabled": true
+      },
+      {
+        "platform": "github",
+        "label": "GitHub Org",
+        "url": "https://github.com/The-Kayastha-Collective",
+        "enabled": true
+      }
+    ]
+  }
+}
